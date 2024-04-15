@@ -107,9 +107,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173/',
-    # Tillad flere URL'er, hvis nødvendigt
+    'http://localhost:5173',
+    # Tilføj andre oprindelser efter behov
 ]
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
